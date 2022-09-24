@@ -1,13 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <header>
-        <meta charset="UTF-8">
-        <meta name="description" content="todo list">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-        <title>ToDo List</title>
-    </header>
-    <body>
-        <h1>Hello</h1>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block head %}
+<title>ToDo List</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>ToDo List</h1>
+    <table>
+        <tr>
+            <th>Task</th>
+            <th>Added</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="actions-content">
+                <a href="">Delete</a>
+                <a href="">Update</a>
+            </td>
+        </tr>
+    </table>
+</div>
+{% endblock %}
