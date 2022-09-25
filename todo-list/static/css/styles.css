@@ -1,4 +1,60 @@
-.actions-content {
-    display: flex;
-    flex-direction: column;
+.content {
+    align-items: center;
+    padding: 0 150px 0 150px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    color: #016652;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #009879;
+}
+
+td {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 5px;
+    background-color: #edfcf9;
+}
+
+th {
+    height: 50px;
+    min-width: 100px;
+    font-size: 1.5rem;
+    background-color: #009879;
+    color: white;
+}
+
+.form {
+    margin: 40px 200px 0 275px;
+}
+
+#content {
+    height: 30px;
+    width: 60%;
+    border: 2px solid #009879;
+}
+
+.submit-button {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 0;
+    height: 30px;
+    background-color: #009879;
+    color: white;
+    margin-left: 30px;
+}
+
+.submit-button:hover {
+    background-color: #016652;
 }
