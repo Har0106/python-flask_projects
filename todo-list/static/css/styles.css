@@ -10,6 +10,12 @@ h1 {
     color: #016652;
 }
 
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #037c64;
+}
+
 table, td, th {
     border: 1px solid #aaa;
 }
@@ -57,4 +63,9 @@ th {
 
 .submit-button:hover {
     background-color: #016652;
+}
+
+a {
+    text-decoration: none;
+    color: #016652;
 }
