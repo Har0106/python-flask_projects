@@ -8,7 +8,9 @@
         <img src="https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png">
         <br>
         <form action="greet" method="post">
-            <p>What is your name?</p>
+            {% for message in get_flashed_messages() %}
+                <p>{{message}}</p>
+            {% endfor %}
             <br>
             <input type="text" name="name">
             <br>
