@@ -1,0 +1,43 @@
+body {
+    background-color: slategray;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.8rem;
+    margin: 15px;
+}
+
+img {
+    margin: 40px 0 30px 0;
+    width: 400px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+input:focus {
+    border: solid 1px #00FFCE;
+    outline: none;
+}
+
+input:last-of-type {
+    width: 200px;
+    background-color:  rgb(8, 197, 156);
+    color: white;
+}
+
+input:last-of-type:hover {
+    background-color: rgb(5, 129, 102);
+    cursor: pointer;
+}
